@@ -1,0 +1,15 @@
+
+.favorite_point {
+  margin-top: 50px;
+  h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  .favorite_inline {
+    display: flex;
+    gap: 30px;
+    height: 40vh;
+  }
+}

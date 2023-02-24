@@ -1,0 +1,33 @@
+
+header {
+  margin-top: 30px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      cursor: pointer;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-size: 1.4em;
+      li {
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+
+    &_icons {
+      display: flex;
+      gap: 25px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+  }
+}

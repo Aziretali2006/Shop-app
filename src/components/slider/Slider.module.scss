@@ -1,0 +1,44 @@
+
+.slider_parent {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  margin-top: 20px;
+  @media(max-width:425px) {
+    height: 35vh;
+  }
+  &_block {
+    position: relative;
+    height: 50vh;
+    @media(max-width:425px) {
+      height: 38vh;
+    }
+
+    .slider_item {
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      position: absolute;
+      cursor: pointer;
+      transition: .5s;
+      @media(max-width: 425px) {
+        height: 250px;
+      }
+    }
+
+    .activeSlider {
+      opacity: 1;
+    }
+  }
+
+  &_dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    @media(max-width:425px) {
+      margin-top: 0;
+    }
+  }
+}

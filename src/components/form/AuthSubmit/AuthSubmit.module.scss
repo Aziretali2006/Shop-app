@@ -1,0 +1,17 @@
+
+.auth_button_center {
+  text-align: left;
+  .auth_button{
+    width: 150px;
+    padding: 15px 0;
+    background: none;
+    border: 1px solid black;
+    transition: .5s;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
